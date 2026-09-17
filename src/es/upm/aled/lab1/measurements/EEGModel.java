@@ -93,6 +93,9 @@ public class EEGModel {
 	 */
 	public EEGModel filter(Filter filter) {
 		// TODO
+		if (filter != null) {
+			return filter.applyFilter(this); 
+		}
 		
 		return null;
 	}
