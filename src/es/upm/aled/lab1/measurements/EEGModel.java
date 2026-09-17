@@ -57,8 +57,11 @@ public class EEGModel {
 	 */
 	public EEGModel(Measurement[] measurements) {
 		// TODO
-		
+		for (Measurement measurement : measurements) {
+	        this.measurements.add(measurement);
+	    }
 	}
+	
 
 	/**
 	 * Adds a Measurement to the end of the EEGModel. If the GUI is running, the new
