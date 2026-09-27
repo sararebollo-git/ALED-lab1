@@ -37,6 +37,7 @@ public class FilterExtractPeriod implements Filter {
 			for(int i=min;i<=max;i++)
 				filteredMeasurements[k++]=measurements[i];
 			return new EEGModel(filteredMeasurements);
+			
 		}
 		return new EEGModel();
 	}
