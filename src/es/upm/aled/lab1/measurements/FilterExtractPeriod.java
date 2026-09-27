@@ -25,6 +25,7 @@ public class FilterExtractPeriod implements Filter {
 		// TODO
 		this.min = min;
 		this.max = max;
+		
 	}
 
 	@Override
